@@ -377,16 +377,13 @@ display(files)
 
 # COMMAND ----------
 
-# DBTITLE 0,--i18n-9987fd58-1023-4dbd-8319-40332f909181
-# MAGIC %md
-# MAGIC
-# MAGIC ## One more note! 
-# MAGIC
-# MAGIC At the end of each lesson you will see the following command, **`DA.cleanup()`**.
-# MAGIC
-# MAGIC This method drops lesson-specific schemas and working directories in an attempt to keep your workspace clean and maintain the immutability of each lesson.
-# MAGIC
-# MAGIC Run the following cell to delete the tables and files associated with this lesson.
+# MAGIC %sql
+# MAGIC show tables
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC show schemas
 
 # COMMAND ----------
 
